@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="../images/lg.png" alt="" class="logo">
+        <nav>
+            <ul>
+                <li><a class="zero" href="#Portfolio">Portfolio</a></li>
+                <li><a class="zero" href="#competences">Competences</a></li>
+                <li><a class="zero" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="banner">
+            <div id="title">
+                <h1>HELLO! NOUS SOMMES DES <br>INGENIEURS EN ARCHITECTURE</h1>
+                <p>Les solides compétences en technologies de la construction et des <br>équipements de l’édifice de
+                    l’ingénieur architecte se doublent d’une <br>parfaite connaissance des conditions esthétiques et
+                    culturelles qui <br>régissent les milieux où il intervient.Ce qui le rend apte à concevoir <br>des
+                    habitats, à toutes les échelles (territoire, paysage,ville, édifice…) <br>et dans tous les styles
+                    (habitat familial, complexes de bureaux, halls <br>sportifs, centre commerciaux ou de loisirs…)</p>
+                <button type="submit">contactez-nous</button>
+            </div>
+        </div>
+        <section>
+            <u><h2 id="Portfolio">PORTFOLIO</h2></u>
+            <p>Nous vous présentons nos projets:</p>
+            <div class="presentation_project">
+                <div class="project">
+                    <img src="../images/p4.jpg" alt="">
+                    <p>Il s'agit d'un modèle réduit d'un complexe d'appartements <br> modernes conçu dans le cadre d'un
+                        cabinet d'architectes. <br>Ce complexe est spécifiquement axé sur l'écologie et la
+                        <br>durabilité, intégrant des pratiques de construction <br>respectueuses de l'environnement et
+                        des solutions <br>innovantes pour un développement de logements <br>respectueux de la planète.
+                    </p>
+                    <button type="submit">Voir le projet</button>
+                </div>
+                <div class="project">
+                    <img src="../images/p1.jpg" alt="">
+                    <p>Il s'agit d'une maquette représentant un immeuble d'appartements modernes, placée sur le
+                        bureau d'un cabinet d'architecte. Cette maquette offre une visualisation miniature de la
+                        conception architecturale d'un bâtiment résidentiel contemporain, permettant aux architectes et
+                        aux professionnels de l'immobilier d'étudier, de présenter et de discuter des aspects
+                        structurels et esthétiques du projet.</p>
+                    <button type="submit">Voir le projet</button>
+                </div>
+                <div class="project">
+                    <img src="../images/p3.jpg" alt="">
+                    <p>Il s'agit d'un modèle en trois dimensions représentant une <br>petite maison, positionné sur un plan
+                        d'étage architectural. <br>Cette représentation permet de visualiser et d'analyser la disposition
+                        spatiale et les détails architecturaux de la maison dans le contexte de son plan d'étage,
+                        offrant ainsi une perspective visuelle précise du projet immobilier bien structurée avec un bon plan.</p>
+                    <button type="submit">Voir le projet</button>
+                </div>
+                <div class="project">
+                    <img src="../images/p6.jpg" alt="">
+                    <p>Il s'agit d'un croquis ou d'une esquisse réalisée par un <br>architecte représentant une maison.
+                        Cette esquisse <br>est une représentation préliminaire et visuelle du design architectural de la
+                        maison, montrant les premières idées<br>et concepts sous forme de dessin à main levée.</p>
+                    <button type="submit">Voir le projet</button>
+                </div>
+                <div class="project">
+                    <img src="../images/p7.jpg" alt="">
+                    <p>Il s'agit d'une maquette représentant un immeuble d'appartements modernes, placée sur le bureau
+                        d'un cabinet d'architecte. Cette maquette offre une visualisation miniature de la conception
+                        architecturale d'un bâtiment résidentiel contemporain, permettant aux architectes et aux
+                        professionnels de l'immobilier d'étudier, de présenter et de discuter des aspects structurels et
+                        esthétiques du projet.</p>
+                    <button type="submit">Voir le projet</button>
+                </div>
+            </div>
+
+        </section>
+        <section id="competences">
+            <u>><h2>COMPETENCES</h2></u>
+            <p>C'est ici nos compétences clés:</p>
+            <div class="skills">
+                <div class="architecture_interieure">
+                    <img src="../images/aa.png" alt="">
+                    <p>Services de design d'intérieur Architecture Icônes d'ordinateur, <br>intérieur de la salle de bain,angle, bâtiment png</p>
+                </div>
+                <div class="architecture_exterieure">
+                    <img src="../images/ab.jpg" alt="">
+                    <p>Architecture construction de bâtiment perspective design, <br>bâtiment urbain moderne abstrait hors ligne dessin noir et blanc.</p>
+                </div>
+                <div class="dessin">
+                    <img src="../images/q.jpg" alt="">
+                    <p>Dessins d'architecture. icône isométrique de plan d'appartement. <br>illustration vectorielle 3D. Dessin technique d'art en ligne isolé. Trait modifiable</p>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <section id="contact-form">
+            <u><h2 id="contact">CONTACTEZ-NOUS:</h2></u>
+            <form action="envoyer.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+        <section id="icons">
+            <a href="https://twitter.com/fc_baddict" class="social" target="_blank">
+                <img src="../images/twitter.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/cherifelwaly.ba?mibextid=LQQJ4d" class="social" target="_blank">
+                <img src="../images/facebook.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/mc_tuzy?igsh=MTdkbzlpNHY1dHF6ZA%3D%3D&utm_source=qr" class="social" target="_blank">
+            <img src="../images/instagram.png" alt="">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=%2B221785093364&text&app_absent=0" class="social" target="_blank">
+            <img src="../images/whatsapp.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/boupainbe-leonel-977206282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social" target="_blank">
+            <img src="../images/linkedin.png" alt="">
+        </a>
+        </section>
+    </footer>
+
+</body>
+
+</html>
